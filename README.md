@@ -1,1 +1,2 @@
 # Chefmate
+Mobile application for CHEFMATE developed in Android (Java), featuring user-friendly UI, API integration, and responsive design. ChefMate is an Android application that allows users to search and connect with chefs according to their preferences where Chef data is fetched dynamically from a PHP & Laravel backend, providing real-time information on availability, cuisine, and services. Used mongoDB as primary database for Chefmate.
