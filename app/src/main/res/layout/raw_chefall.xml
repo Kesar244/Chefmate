@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:clickable="true"
+    android:id="@+id/card"
+    app:contentPadding="10dp"
+    app:cardElevation="20dp"
+    android:background="#DDFBDD"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="left">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/cook1"
+            android:layout_margin="5dp"
+            app:civ_border_color="@color/ic_launcher_background"
+            app:civ_border_width="2dp"
+            android:id="@+id/imgCat"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chef Name :"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ratings :"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="left"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price :"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="left"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone No :"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="left"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email ID :"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="left"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category :"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="left"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCname"
+                android:text="Chef Name"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvRatings"
+                android:text="Ratings"
+                android:layout_gravity="right"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvPrice"
+                android:text="Price"
+                android:layout_gravity="right"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvPno"
+                android:text="Phone"
+                android:layout_gravity="right"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvEmail"
+                android:text="Email"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCat"
+                android:text="Category"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

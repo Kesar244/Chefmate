@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeActivity">
+
+   <!-- <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#219223"
+        app:title="CHEFMATE"
+        app:navigationIcon="@mipmap/h1"
+        app:titleTextColor="@color/black">
+
+    </androidx.appcompat.widget.Toolbar>-->
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bnvHome" />
+
+    <!--<com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/bnvHome"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/homepage_menu"
+        android:layout_margin="10dp"
+        android:background="@drawable/bnb_style"/>-->
+
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:id="@+id/bnvHome"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:backgroundColor="#68C14D"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/homepage_menu"/>
+
+</RelativeLayout>

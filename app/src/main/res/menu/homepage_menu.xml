@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@mipmap/home"/>
+
+    <item
+        android:id="@+id/menu_chef"
+        android:title="Coupon"
+        android:icon="@mipmap/coupon"/>
+
+    <item
+        android:id="@+id/menu_location"
+        android:title="Booking"
+        android:icon="@mipmap/booking"/>
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        android:icon="@mipmap/user"/>
+
+</menu>

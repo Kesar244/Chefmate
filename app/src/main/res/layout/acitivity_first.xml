@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@mipmap/fs"
+    tools:context="FirstActivity">
+
+
+
+    <!--<VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="20dp"
+            android:layout_marginTop="80dp"
+            android:gravity="right"
+            android:text="Skip >>"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp" />
+
+
+
+
+
+
+
+
+        <!--<TextView
+            android:id="@+id/tvStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="0dp"
+            android:layout_marginTop="80dp"
+            android:gravity="bottom"
+            android:text="Get Started >>"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp" />-->
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="211dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="620dp"
+            android:background="@drawable/button_shape"
+            android:gravity="center"
+            android:text="Login"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="211dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

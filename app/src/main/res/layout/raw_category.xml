@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:contentPadding="10dp"
+    app:cardElevation="20dp"
+    android:layout_margin="5dp"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="40dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/dish"
+        android:layout_margin="5dp"
+        app:civ_border_color="@color/ic_launcher_background"
+        app:civ_border_width="2dp"
+        android:id="@+id/imgCat"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCatName"
+        android:text="Cat Name"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
